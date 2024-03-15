@@ -1,84 +1,158 @@
+.top-container {
+  background-color: #EB455F;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin: 75px auto 0;
+  padding: 50px 0 20px;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f5f5f5;
-  }
-  
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out; /* Added transition for hover effect */
-  }
-  
-  header:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
-  }
-  
-  header img {
-    border-radius: 50%;
-  }
-  
-  header h1 {
-    margin-bottom: 5px;
-    color: #333;
-  }
-  
-  header p {
-    margin-top: 0;
-    color: #777;
-  }
-  
-  h3 {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: #333;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th,
-  td {
-    padding: 10px;
-    border: 1px solid #ddd;
-  }
-  
-  th {
-    text-align: left;
-  }
-  
-  .ratings {
-    display: flex;
-  }
-  
-  .ratings span {
-    color: orange;
-  }
-  
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 150%;
+
+}
+
+h1 {
+  margin: 50px auto auto 0px;
+  font-family: 'Passions Conflict', cursive;
+  font-size: 7.50rem;
+  color: #66bfbf;
+  line-height: 2;
+
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Crimson Text', serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Crimson Text', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none;
+  color: #EB455F;
+  border-width: 5px;
+  margin: 100px auto;
+  ;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+
+.WebDeveloper {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.DataAnalyst {
+  width: 40%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.Cafe-Hopping {
+  width: 40%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 40px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+
+}
+
+.MyImage {
+  width: 45%;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Crimson Text', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding: 20px 0;
+  font-size: 1rem;
+}
